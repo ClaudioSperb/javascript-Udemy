@@ -72,3 +72,19 @@ contador3 +=10
 console.log(contador3)
 
 // Aqui utilizamos os operadores de atribuição, nesse exemplo a cima, ele pega o valor de contador e soma 10, faznedo, nesse exemplo aqui a cima, pular de 10 em 10.
+
+console.log('-------------------------------')
+
+let contador4 = 1
+contador4*=2
+console.log(contador4)
+contador4*=2
+console.log(contador4)
+contador4*=2
+console.log(contador4)
+contador4*=2
+console.log(contador4)
+contador4*=2
+console.log(contador4)
+
+// Aqui utilizamos como exemplo a multiplicação, onde a cada resultado ele multiplica 2.
