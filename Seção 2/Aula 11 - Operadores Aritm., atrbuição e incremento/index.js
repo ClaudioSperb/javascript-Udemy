@@ -88,3 +88,25 @@ contador4*=2
 console.log(contador4)
 
 // Aqui utilizamos como exemplo a multiplicação, onde a cada resultado ele multiplica 2.
+
+console.log('-------------------------------')
+
+let n1 = 10
+let n2 = 'Claudio'
+let res2 = n1 * n2
+console.log(res2)
+//Aqui nesse exemplo aqui o resutado é NaN = Not a Number, ou seja o codigo esta com erro.
+
+console.log('-------------------------------')
+
+let numero1 = Number('25')//Conversao de string para numero.
+let numero2 = 10
+let r = numero1 + numero2
+console.log(r)
+console.log(typeof numero1)
+
+//parseInt - Converte para numeros inteiros - 1 , 3 , 4 etc...
+
+//parseFloat - converte para numeros reais - 1.2 , 1.8 etc
+
+//Number - Converte independente se é real ou inteiro.
