@@ -30,4 +30,12 @@ console.log('-------------------------------')
 let minhaString2 = 'Testando Strings e seus Métodos'
 console.log(minhaString2.indexOf('String')) // Aqui ele me da o indice onde começa o texto que quero encontrar. Caso o texto não exista na string ele dara o valor de -1.
 
-console.log(minhaString2.lastIndexOf('Testando'))
+console.log(minhaString2.lastIndexOf('Métodos', 5 ))
+console.log(minhaString2.replace('Testando', 'Utilizando'))// Aqui usamos o replace, para substituir a palavra por outra.
+console.log(minhaString2.length)//mostra o tamanho da string
+
+console.log(minhaString2.split(' ', 2))
+console.log(minhaString2.toLowerCase())//Deixa tudo em letras minúsculas
+console.log(minhaString2.toUpperCase())//deixa nossa String com todas as Letras MAIÙSCULAS
+
+
