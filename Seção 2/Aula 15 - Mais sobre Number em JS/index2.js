@@ -13,7 +13,9 @@ num2 = Number(num2.toFixed(2))
 //Aqui usei Number com toFixed para termos um numero mais real.
 console.log(num1)
 console.log(typeof num1)
-num1 = num1.toString(2)
-console.log(num1)
+//num1 = num1.toString(2)
+res = num1 + num2
+console.log(res.toFixed(2))
+console.log(res)
 
 // Nesse caso concatenamos o valor convertido pra String com o Number.
