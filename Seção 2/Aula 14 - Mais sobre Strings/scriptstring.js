@@ -5,6 +5,6 @@ document.body.innerHTML += `a segunda letra do seu nome é <strong>${nome.toUppe
 document.body.innerHTML += `O índice da letra <strong>${nome.toUpperCase()[1]}</strong> é o <strong>'1'</strong> </br>`
 document.body.innerHTML += `A ultima letra do seu nome é <strong>${nome.slice(-1)}</strong> </br>`
 document.body.innerHTML += `As 3 ultimas letra do seu nome é <strong>${nome.slice(-3)}</strong></br>`
-document.body.innerHTML += `As palavras do seu nome são: <strong>${nome.split(' ', 3)}</strong></br>`
+document.body.innerHTML += `As palavras do seu nome são: <strong>${nome.split(' ')}</strong></br>`
 document.body.innerHTML += `Seu nome com letras minusculas é - <strong>${nome.toLowerCase()}</strong></br>`
 document.body.innerHTML += `Seu nome com letras Maiusculas é - <strong>${nome.toUpperCase()}</strong>`
