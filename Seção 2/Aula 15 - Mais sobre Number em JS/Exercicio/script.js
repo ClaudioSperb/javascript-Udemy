@@ -25,4 +25,3 @@ texto.innerHTML += `<p>Seu número com duas casas decimais é <strong>${numero.t
 texto.innerHTML +=`<p>Seu número elevado ao quadrado é <strong>${numero ** 2}</strong></p>`
 
 textoSec.innerHTML = ' Obrigado por participar !!!'
-
