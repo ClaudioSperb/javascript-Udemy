@@ -30,5 +30,10 @@ console.log(alunos) // ['Claudio', 'Renato', 'João','Maria', 'Paulo','Jorge','F
 //Para Remover o elemento final do array
 const removivdo = alunos.pop('Felipe')
 const removivdo2 = alunos.pop('Jorge')
-console.log(alunos) // [ 'Roberto', 'Renato', 'José', 'João', 'Maria', 'Paulo' ]
+
 console.log(removivdo, removivdo2) //Felipe Jorge
+console.log(alunos) // [ 'Roberto', 'Renato', 'José', 'João', 'Maria', 'Paulo' ]
+
+//Para remover o primeiro Elemento
+alunos.shift([0])
+console.log(alunos) //[ 'Renato', 'José', 'João', 'Maria', 'Paulo' ]
