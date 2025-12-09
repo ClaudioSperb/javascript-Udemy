@@ -26,3 +26,9 @@ console.log(alunos) // ['Roberto','Claudio', 'José', 'João','Maria', 'Paulo','
 //Alterando um Elemento
 alunos[1] = 'Renato'
 console.log(alunos) // ['Claudio', 'Renato', 'João','Maria', 'Paulo','Jorge','Felipe']
+
+//Para Remover o elemento final do array
+const removivdo = alunos.pop('Felipe')
+const removivdo2 = alunos.pop('Jorge')
+console.log(alunos) // [ 'Roberto', 'Renato', 'José', 'João', 'Maria', 'Paulo' ]
+console.log(removivdo, removivdo2) //Felipe Jorge
