@@ -1,5 +1,5 @@
 function saudacao(nome){
-    console.log(`Olá, ${nome}! Seja bem-vindo(a)!`);    
+    console.log(`Olá, ${nome}! Seja bem-vindo(a)!`)
 }
 
 saudacao('Claudio Sperb'); // Chamada da função
