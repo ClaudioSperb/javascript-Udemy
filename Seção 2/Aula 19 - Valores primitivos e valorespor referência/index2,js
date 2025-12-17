@@ -1,0 +1,10 @@
+const a = {
+    nome: 'Claudio',
+    sobrenome: 'Sperb'
+}
+
+const b = { ...a }; // espalhamento (spread operator) de objetos 
+console.log(a); // { nome: 'Claudio', sobrenome: 'Sperb' }
+
+a.nome = 'João'
+console.log(a, b); // { nome: 'João', sobrenome: 'Sperb' } { nome: 'Claudio', sobrenome: 'Sperb' }
