@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #container {
+            border: 1px solid #000000;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>
+            Formulário de Cadastro
+        </h1>
+        <div id="container">
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="------Digite seu Nome------">
+            </p>
+            <p>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome" placeholder="------Digite seu Sobrenome-----">
+            </p>
+            <p>
+                <label for="peso">Peso:</label>
+                <input type="number" id="peso" name="peso" placeholder="------Digite seu Peso------">
+            </p>
+            <p>
+                <label for="altura">Altura:</label>
+                <input type="number" id="altura" name="altura" placeholder="------Digite sua Altura------">
+            </p>
+        </div>
+    </main>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
