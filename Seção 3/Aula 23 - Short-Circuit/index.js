@@ -2,7 +2,7 @@
 FALSY
 
 0
-'' " " `` -> strings vazias
+'' , " " ,  `` -> strings vazias
 null/undefined
 NaN
 
