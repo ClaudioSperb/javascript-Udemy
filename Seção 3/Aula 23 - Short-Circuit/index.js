@@ -18,6 +18,7 @@ function falarOi() {
 const VaiDarOi = true
 
 console.log( VaiDarOi && falarOi()) // Aqui no caso ele retorna a function, pois a ultima expressao validada é true a anterior tambem.
+
 const a = 2
 const b = false
 const c = 'false'
