@@ -7,15 +7,19 @@
 </head>
 <body>
     <h1>Utilizando IF e ELSE</h1>
+    <div id="res">
+        Verificando...
+    </div>
 
     <script>
-        const nome = document.prompt('Digite seu nome: ')
-        const idade = document.prompt('Agora digite quantos anos possui:')
+        const nome = prompt('Digite seu nome: ')
+        const idade = prompt('Agora digite quantos anos possui:')
+        let res = document.querySelector('#res')
 
         if(idade > 18){
-            document.writeln(`Seu nome é ${nome} e possui ${idade} anos de idade. Você é de maior!`)
+            res.innerHTML = `Seu nome é ${nome} e possui ${idade} anos de idade. Você é de maior!`
         } else{
-            document.writeln(`Seu nome é ${nome} e possui ${idade} anos de idade. Você é de menor!`)
+            res.innerHTML = `Seu nome é ${nome} e possui ${idade} anos de idade. Você é de menor!`
         }
 
     </script>
