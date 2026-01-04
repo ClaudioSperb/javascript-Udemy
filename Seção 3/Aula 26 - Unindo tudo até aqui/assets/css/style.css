@@ -58,3 +58,12 @@ form button:hover {
   background: var(--primary-color-darker);
   transition: 0.4s;
 }
+
+.paragrafo-resultado{
+  background-color: green;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+}
