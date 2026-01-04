@@ -12,7 +12,6 @@ form.addEventListener('submit', function (e) {
 
     console.log(peso, altura)
 
-    if()
 });
 
 function criaP(){
