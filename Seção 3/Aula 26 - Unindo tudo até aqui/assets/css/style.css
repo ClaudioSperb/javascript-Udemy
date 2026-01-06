@@ -67,3 +67,12 @@ form button:hover {
   font-weight: bold;
   border-radius: 6px;
 }
+
+.bad{
+  background-color: rgb(253, 36, 36);
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+}
