@@ -59,7 +59,8 @@ form button:hover {
   transition: 0.4s;
 }
 
-.paragrafo-resultado{
+#resultado{
+  
   background-color: green;
   padding: 10px;
   text-align: center;
@@ -68,11 +69,21 @@ form button:hover {
   border-radius: 6px;
 }
 
-.bad{
+#resultado-red{
   background-color: rgb(253, 36, 36);
   padding: 10px;
   text-align: center;
   color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+#resultado-yellow{
+  
+  background-color: rgb(251, 255, 0);
+  padding: 10px;
+  text-align: center;
+  color: #111111;
   font-weight: bold;
   border-radius: 6px;
 }
