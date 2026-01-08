@@ -1,0 +1,11 @@
+const idade = 10
+const maiorIdade = idade >= 18 ? 'Maior de idade' : 'Menor de idade';
+console.log(maiorIdade);
+
+//Nesse caso substituimos o if...else pela operação ternária.
+
+// if (idade >= 18){
+//     console.log('Maior de idade')
+// } else{
+//     console.log('Menor de idade')
+// }
