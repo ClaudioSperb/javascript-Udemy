@@ -1,7 +1,10 @@
-const idade = 10
+const idade = 20
 const maiorIdade = idade >= 18 ? 'Maior de idade' : 'Menor de idade';
-console.log(maiorIdade);
 
+const corPadrao = 'Azul';
+const corUsuario = corPadrao || 'Preto';
+
+console.log(maiorIdade, corUsuario);
 //Nesse caso substituimos o if...else pela operação ternária.
 
 // if (idade >= 18){
