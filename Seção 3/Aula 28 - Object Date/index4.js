@@ -1,3 +1,4 @@
+const data = new Date();
 function zeroEsquerda(num){
     return num >= 10 ? num : `0${num}`;
 }
@@ -13,6 +14,5 @@ function formataData(data){
     return `${dia} / ${mes} / ${ano} - ${hora} : ${min} : ${seg}`;
 }
 
-const data = new Date();
 const dataBrasil = formataData(data);
 console.log(dataBrasil);
