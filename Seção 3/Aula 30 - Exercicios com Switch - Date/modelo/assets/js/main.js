@@ -25,13 +25,13 @@ function getdDiaSemanaTexto(diaSemana){
         diaSemanaTexto = `Hoje é Quarta-Feira , ${dataAtual} e agora são ${horaAtual} horas.`;
         return diaSemanaTexto;
     case 4:
-        diaSemanaTexto = 'Quinta-Feira';
+        diaSemanaTexto = `Hoje é Quinta-Feira , ${dataAtual} e agora são ${horaAtual} horas.`;
         return diaSemanaTexto;
     case 5:
-        diaSemanaTexto = 'Sexta-Feira';
+        diaSemanaTexto = `Hoje é Sexta-Feira , ${dataAtual} e agora são ${horaAtual} horas.`;
         return diaSemanaTexto;
     case 6:
-        diaSemanaTexto = 'Sábado';
+        diaSemanaTexto = `Hoje é Sábado , ${dataAtual} e agora são ${horaAtual} horas.`;
         return diaSemanaTexto;
         default:
             diaSemanaTexto = 'ERRO'
